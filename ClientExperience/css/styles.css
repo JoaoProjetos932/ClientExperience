@@ -1,0 +1,344 @@
+
+
+.navbar-brand img {
+    width: 80px;    
+    padding: 0;
+    margin-left: 10px;
+    background-color: blue;
+    
+}
+
+
+#main-title {
+    text-align: center;
+    margin: 15px 0 30px;
+
+}
+
+
+
+#contacts-table {
+    max-width: 900px;
+    margin: 0 auto;
+
+}
+
+#contacts-table thead {
+    color: white;
+    background-color: #bddd1f;
+}
+
+.actions {
+    text-align: right;
+    width: 150px;
+}
+.actions i {
+    font-size: 18px;
+    margin-right: 5px;
+}
+
+.check-icon {
+    color: #1E7E34;
+}
+.edit-icon {
+    color: #007BFF;
+}
+.delete-icon {
+    color: #BD2130;
+
+}
+.col-id {
+    font-weight: bold;
+    margin-right: 20px;
+    padding: 20px;
+}
+.delete-btn {
+    background-color: transparent;
+    border: none;
+    padding: 0;
+}
+
+#empty-list-text {
+    text-align: center;
+    
+}
+
+#msg {
+    color: #155724;
+    background-color: #D4EDDA;
+    border: 1px solid #C3E6CB;
+    padding: 10px;
+    text-align: center;
+    max-width: 500px;
+    margin: 0 auto;
+    margin-top: 30px;
+
+}
+
+
+#contacts-table thead th {
+    background-color: #0f0395 !important;
+    color: white !important;
+
+}
+#contacts-table td:nth-child(3), 
+#contacts-table td:nth-child(5)   {
+    text-align: center;
+    vertical-align: middle;
+}
+#contacts-table th:nth-child(3),
+#contacts-table th:nth-child(5) {
+    text-align: center;
+}
+#contacts-table td,
+#contacts-table th {
+    vertical-align: middle;
+}
+#contacts-table td:nth-child(4),
+#contacts-table td:nth-child(5), 
+#contacts-table th:nth-child(4),
+#contacts-table th:nth-child(5) {
+    text-align: center;
+    vertical-align: middle;
+}
+#contacts-table td:nth-child(6), 
+#contacts-table th:nth-child(6) {
+    text-align: left;
+    vertical-align: middle;
+    max-width: 250px;
+    word-wrap: break-word;
+    padding: 8px 10px;
+}
+#contacts-table td:nth-child(6),
+#contacts-table th:nth-child(6) {
+    text-align: left;
+    vertical-align: middle;
+    max-width: 250px;
+    min-width: 200px;
+    word-break: break-word;
+    white-space: pre-wrap;
+    padding: 10px 12px;
+    font-size: 14px;
+}
+#contacts-table th:nth-child(6),
+#contacts-table td:nth-child(6) {
+    text-align: center;
+    vertical-align: middle;
+}
+#contacts-table th:nth-child(6),
+#contacts-table td:nth-child(6) {
+    text-align: center !important;
+    vertical-align: middle !important;
+}
+
+
+
+#view-contact-container {
+    max-width: 500px;
+    margin: 0 auto;
+    
+}
+
+.bold {
+    font-weight: bold;
+
+}
+
+
+#back-link-container {
+    display: block;
+    width: 500px;
+    margin: 30px auto 0;
+    
+}
+#back-link {
+    text-decoration: none;
+    color: #007BFF;
+    font-size: 16px;
+    border: 1px solid #007BFF;
+    border-radius: 4px;
+    padding: 7px;
+}
+#back-link:hover {
+    background-color: #033365;
+    color: white;
+    }
+
+#create-form, #edit-form {
+    max-width: 500px;
+    margin: 0px auto;
+}
+#create-form {
+    max-width: 600px;
+    background: #ffffff;
+    padding: 30px;
+    border-radius: 12px;
+    box-shadow: 0 8px 24px rgba(0, 0, 0, 0.1);
+    margin: 40px auto;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+#create-form h1 {
+    text-align: center;
+    color: #013874;
+    margin-bottom: 25px;
+}
+
+#create-form .form-group {
+    margin-bottom: 20px;
+}
+
+#create-form label {
+    display: block;
+    font-weight: 600;
+    color: #333;
+    margin-bottom: 6px;
+}
+
+#create-form input,
+#create-form textarea {
+    width: 100%;
+    padding: 12px 14px;
+    border: 1px solid #ccc;
+    border-radius: 6px;
+    font-size: 15px;
+    transition: 0.3s ease;
+    resize: vertical;
+}
+
+#create-form input:focus,
+#create-form textarea:focus {
+    outline: none;
+    border-color: #013874;
+    box-shadow: 0 0 0 3px rgba(0, 123, 255, 0.2);
+}
+
+#create-form button[type="submit"] {
+    background-color: #007BFF;
+    border: none;
+    padding: 12px 20px;
+    color: white;
+    font-weight: bold;
+    font-size: 16px;
+    border-radius: 6px;
+    cursor: pointer;
+    width: 100%;
+    transition: 0.3s ease;
+}
+
+#create-form button[type="submit"]:hover {
+    background-color: #0056b3;
+}
+/* SHOW CONTACT STYLES */
+#view-contact-container {
+    max-width: 700px;
+    margin: 50px auto;
+    background: linear-gradient(145deg, #ffffff 0%, #f8f9fa 100%);
+    padding: 40px;
+    border-radius: 15px;
+    box-shadow: 0 10px 30px rgba(0, 0, 0, 0.1);
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    border: 1px solid #e0e0e0;
+}
+
+#main-title {
+    text-align: center;
+    font-size: 28px;
+    color: #2c3e50;
+    margin-bottom: 30px;
+    font-weight: 700;
+    text-shadow: 1px 1px 2px rgba(0,0,0,0.1);
+    padding-bottom: 15px;
+    border-bottom: 2px solid #007BFF;
+}
+.delete-form {
+    display: inline;
+}
+.contact-detail {
+    margin-bottom: 25px;
+    padding: 15px;
+    background-color: #f8f9fa;
+    border-radius: 8px;
+    transition: all 0.3s ease;
+    box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+}
+
+.contact-detail:hover {
+    transform: translateY(-2px);
+    box-shadow: 0 5px 15px rgba(0,0,0,0.1);
+    background-color: #e9ecef;
+}
+
+.bold {
+    font-weight: 600;
+    color: #007BFF;
+    font-size: 18px;
+    margin-bottom: 5px;
+    display: flex;
+    align-items: center;
+}
+
+.bold::before {
+    content: "•";
+    color: #007BFF;
+    margin-right: 10px;
+    font-size: 24px;
+}
+
+#view-contact-container p {
+    font-size: 16px;
+    color: #495057;
+    margin: 0;
+    padding: 8px 0 8px 25px;
+    line-height: 1.2;
+    border-left: 3px solid #007BFF;
+}
+
+/* Responsividade */
+@media (max-width: 768px) {
+    #view-contact-container {
+        padding: 25px;
+        margin: 30px 15px;
+    }
+    
+    .bold {
+        font-size: 16px;
+    }
+    
+    #view-contact-container p {
+        font-size: 15px;
+    }
+}
+
+/* MOBILE */
+
+@media(max-width: 480px) {
+    #home-link {
+        display: none;
+    }
+}
+
+/* Remove underscores e alinha ícones perfeitamente */
+.actions a, 
+.actions .delete-btn {
+    text-decoration: none !important; /* Remove sublinhados */
+    border-bottom: none !important; /* Remove bordas inferiores */
+    display: inline-flex; /* Alinhamento perfeito */
+    align-items: center;
+    justify-content: center;
+    padding: 5px; /* Espaçamento opcional */
+    color: inherit; /* Mantém as cores dos ícones */
+}
+
+.actions a:hover, 
+.actions .delete-btn:hover {
+    background-color: rgba(0,0,0,0.05); /* Efeito hover sutil */
+    border-radius: 3px;
+}
+
+/* Garante que o formulário não cause problemas */
+.delete-form {
+    display: inline;
+    margin: 0;
+    padding: 0;
+}
